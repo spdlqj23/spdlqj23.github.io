@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.applinktest",
+    "sha256_cert_fingerprints":
+    ["49:0D:11:6D:9C:D4:F0:E6:00:E2:E6:57:B3:63:43:44:FB:A8:6C:9E:3C:63:F9:F9:BD:A8:06:98:27:28:64:8A"]
+  }
+}]
