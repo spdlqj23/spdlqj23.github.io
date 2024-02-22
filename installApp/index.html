@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Install App</title>
+</head>
+<body>
+    <main>
+        <h1>
+            Install App Parameter
+        </h1>
+        <div id="area">
+
+        </div>
+    </main>    
+</body>
+    <script>
+        (function(w){
+            let area = document.getElementById("area")
+            
+            
+            let name = new URLSearchParams(window.location.search)
+            
+            name.forEach(function(value, key){
+                let div = document.createElement("div")
+                div.innerText = `key: ${key}, value: ${value}`
+                area.appendChild(div)
+            })
+            
+        })(window)
+    </script>
+</html>
