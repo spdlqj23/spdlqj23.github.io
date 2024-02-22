@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello GitHub Page</title>
+    <style>
+        a {
+            display: block;
+        }
+    </style>
 </head>
 <body>
     <a href="https://spdlqj23.github.io/installApp?link=www.naver.com">https://spdlqj23.github.io/installApp?link=www.naver.com</a>
@@ -31,8 +36,12 @@
             location.href="./installApp?link=www.naver.com"
         }
 
+        var cnt;
         function count() {
-            window.open("https://spdlqj23.github.io/installApp?link=www.naver.com" )
+            clearInterval(cnt)
+            cnt = setTimeout(() => {
+                window.open("https://spdlqj23.github.io/installApp?link=www.naver.com" )
+            }, 2000)
         }
     </script>
 </html>
