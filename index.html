@@ -1,1 +1,38 @@
-Hello Github Page!
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello GitHub Page</title>
+</head>
+<body>
+    <a href="https://spdlqj23.github.io/installApp?link=www.naver.com">https://spdlqj23.github.io/installApp?link=www.naver.com</a>
+    <a href="./installApp?link=www.naver.com">./installApp?link=www.naver.com</a>
+    <a href="javascript:open1()">js full open</a>
+    <a href="javascript:open2()">js relative open</a>
+    <a href="javascript:href1()">js full location</a>  
+    <a href="javascript:href2()">js relative location</a>
+    <a href="javascript:count()">js count</a>
+</body>
+    <script>
+        function open1() {
+            window.open("https://spdlqj23.github.io/installApp?link=www.naver.com" )
+        }
+
+        function open2() {
+            window.open("./installApp?link=www.naver.com" )
+        }
+
+        function href1() {
+            location.href="https://spdlqj23.github.io/installApp?link=www.naver.com"
+        }
+
+        function href2() {
+            location.href="./installApp?link=www.naver.com"
+        }
+
+        function count() {
+            window.open("https://spdlqj23.github.io/installApp?link=www.naver.com" )
+        }
+    </script>
+</html>
